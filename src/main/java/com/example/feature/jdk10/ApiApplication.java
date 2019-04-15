@@ -1,6 +1,8 @@
 package com.example.feature.jdk10;
 
 
+
+
 /**
  * @author zhengshijun
  * @version created on 4/15/19.
@@ -13,6 +15,7 @@ public class ApiApplication {
 //        System.out.println(version.update());
 //        System.out.println(version.interim());
         System.out.println(version);
+
 
 
     }
