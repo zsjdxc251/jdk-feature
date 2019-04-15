@@ -1,23 +1,19 @@
 package com.example.feature.jdk10;
 
-import java.util.List;
-import java.util.Set;
+import javax.lang.model.SourceVersion;
 
 /**
+ * {@link SourceVersion#RELEASE_10}
+ *
  * @author zhengshijun
  * @version created on 4/15/19.
  */
-public class VarApplication {
+public class SourceVersionApplication {
 
     public static void main(String[] args) {
 
 
-        var set = Set.of();
-
-
-        var list = List.of();
-
-
+        SourceVersion sourceVersion;
 
 
     }
