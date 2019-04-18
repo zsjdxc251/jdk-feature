@@ -14,6 +14,8 @@ public class CurrencyApplication {
         CurrencyUnit arrayusDollar = MonetaryCurrencies.getCurrency("USD");
 
         //根据国家和地区来获取货币单位
+
+        // huobi
         CurrencyUnit arrayyen = MonetaryCurrencies.getCurrency("Locale.JAPAN");
         CurrencyUnit arraycanadianDollar = MonetaryCurrencies.getCurrency("Locale.CANADA");
     }
